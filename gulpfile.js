@@ -9,13 +9,12 @@ const sourcemaps = require('gulp-sourcemaps');
 // Minifica o JavaScript
 const uglify = require('gulp-uglify');
 // Ofusca o JavaScript
-const obfuscate = require('gulp-obfuscate');
 
+// .pipe(obfuscate())
 // Minifica e Ofusca o JavaScript
 function compileJs(){
     return gulp.src('./src/scripts/main.js')
         .pipe(uglify())
-        .pipe(obfuscate())
         .pipe(gulp.dest('./dist/scripts'))
 }
 
