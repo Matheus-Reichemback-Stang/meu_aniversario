@@ -56,4 +56,43 @@
             }
         }
     }
+
+    @media(max-width: 1023px){
+
+        &__image{
+            height: 168px;
+        }
+
+        &__text{
+            padding: 64px 0;
+            font-size: 56px;
+            text-align: center;
+        }
+        
+        &__timer{
+            font-size: 64px;
+        }
+    }
+
+    @media(max-width: 767px){
+
+        &__image{
+            height: 126px;
+        }
+
+        &__text{
+            padding: 40px 0;
+            font-size: 48px;
+            text-align: start;
+        }
+
+        &__timer{
+            font-size: 56px;
+        }
+
+        &__links{
+            width: 40%;
+            justify-content: space-around;
+        }
+    }
 }

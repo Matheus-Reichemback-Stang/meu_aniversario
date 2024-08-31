@@ -11,6 +11,10 @@ body{
     background-image: url("https://my-project-images.netlify.app/projects/6/images/gif/background.gif");
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media (max-width: 1023px) {
+        background-position: 50% 50%;
+    }
 }
 
 .container{
