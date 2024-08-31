@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", system-ui;
+    color: white;
+    list-style: none;
+}
+
+body{
+    background-image: url("https://my-project-images.netlify.app/projects/6/images/gif/background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}

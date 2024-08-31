@@ -1,0 +1,59 @@
+@use './variables.scss';
+@use './reset.scss';
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    padding: 80px;
+    text-align: center;
+    position: relative;
+
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(variables.$corDeOverlay, 0.4);
+        content: '';
+    }
+
+    &__image{
+        height: 248px;
+        
+    }
+
+    &__text{
+        font-size: 80px;
+        font-weight: bold;
+        padding: 64px 0;
+    }
+
+    &__timer{
+        font-size: 80px;
+        color: variables.$corSecundaria;
+    }
+
+    &__links{
+        padding-top: 32px;
+        width: 20%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+        &__link{
+            position: absolute;
+
+            img{
+                height: 40px;
+                transition: ease 0.3s;
+            }
+
+            &:hover{
+                img{
+                    height: 48px;
+                }
+            }
+        }
+    }
+}
