@@ -1,8 +1,5 @@
-// Pegando a Data de hoje, mas o que nos interessa é o ano atual
-const anoAtual = new Date()
-
 // Definindo a data do Aniversário e acrescentando 1 ano para o ano atual
-const dataDoAniversario = new Date(`May 03, ${anoAtual.getFullYear() + 1} 00:00:00`);
+const dataDoAniversario = new Date(`May 03, 2025 00:00:00`);
 
 // Pegando TimeStamp do Aniversário
 const timeStampDoAniversario = dataDoAniversario.getTime();
@@ -40,13 +37,9 @@ const atualizadorDoTimer = setInterval(function() {
     // Aplicando os valores das constantes no elemento
     span.innerHTML = `${diasAteOAniversario}d ${horasAteOAniversario}h ${minutosAteOAniversario}m ${segundosAteOAniversario}s`
 
-    const idade = agora.getFullYear() - 2005;
-
     if(diferencaDeTempo < 0){
         // Parando o Atualizador, para ele não continuar rodando e ficar números negativos
         clearInterval(atualizadorDoTimer)
-
-        
         span.innerHTML = "Matheus fez 20 anos"
     }
 
