@@ -19,18 +19,17 @@
     }
 
     &__image{
-        height: 248px;
-        
+        height: 176px;
     }
 
     &__text{
-        font-size: 80px;
+        font-size: 64px;
         font-weight: bold;
-        padding: 64px 0;
+        padding: 48px 0;
     }
 
     &__timer{
-        font-size: 80px;
+        font-size: 72px;
         color: variables.$corSecundaria;
     }
 
