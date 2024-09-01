@@ -33,7 +33,7 @@ const atualizadorDoTimer = setInterval(function() {
     const horasAteOAniversario = Math.floor((diferencaDeTempo % diaEmMs) / horaEmMs)
     const minutosAteOAniversario = Math.floor((diferencaDeTempo % horaEmMs) / minutoEmMs)
     const segundosAteOAniversario = Math.floor((diferencaDeTempo % minutoEmMs) / 1000)
-
+segundosAteOAniversario
     // Recuperando o elemento HTML onde vai ficar o tempo
     const span = document.querySelector('.main__timer')
     // Aplicando os valores das constantes no elemento
