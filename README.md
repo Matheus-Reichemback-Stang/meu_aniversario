@@ -13,6 +13,7 @@ Caso ainda não tenha visto a página, clique [aqui](https://matheus-reichemback
  ### Tecnologias usadas:
  * HTML
  * CSS
+ * JavaScript
  * SASS
  * Gulp
 ---
@@ -23,6 +24,9 @@ O ***HTML***(HyperText Markup Language) é uma linguagem utilizada para construi
 
 #### CSS
 O ***CSS***(Cascading Style Sheets) é uma linguagem utilizada para construir o design de uma página em si. Enquanto o HTML coloca seus elementos na página, o CSS organiza eles para ficarem mais atrativos ao usuário, ademais o CSS permite criar páginas animadas e dinâmicas. Para usar o CSS, temos que usar os ***seletores, propriedades e valores***. Os **seletores** podem ser definidos por ***Tags, IDs e Classes***, de modo geral, o **seletor é o item(Tag) que vai ser alterado**. As **propriedades** são utilizadas para causar os efeitos, por exemplo '***font-size***', essa propriedade é utilizada para alterar o tamanho da fonte de textos. Já os **valores**, são o efeito em sí, para uma propriedade funcionar ela precisa de um valor para se basear, no mesmo exemplo de antes, digamos que temos o '**font-size**' assim: ***font-size: 16px;***, isso quer dizer que a propriedade ***font-size*** vai ter o valor de ***16px***, ou seja o seletor que contém essa informação vai ter o(s) texto(s) no tamanho de 16px.
+
+#### JavaScript 
+O ***JavaScript*** é um ***linguagem de programação*** com o principal foco em desenvolvimento de páginas web, com esse tipo linguagem é possível **criar sistemas complexos** como ***validações de formulário***, adicionar conteúdo através de ***APIs***, ***criar animações*** e etc. Na programação de sites, o JavaScript utiliza uma ferramenta que é ***proporcionada pelo próprio navegador***, o **DOM(Document Object Model)**, através desta ferramenta é possível acessar elementos HTML e manipular eles da forma que você quiser, por exemplo, fazer uma validação para ver se uma ***Tag 'input'*** foi preenchida ou não.
 
 #### SASS
 O **_SASS_** é um pré-processador de CSS que auxília na contrução e entendimento do código CSS. Com sua sintaxe é possível utilizar **Seletores dentro do código de outros Seletores**, assim ajudando a interpretar melhor o código e ficando com uma maior performace.
